@@ -7,7 +7,7 @@ class UserModel {
 			$this->username=$username;
 	}
 
-		function get_username ($username){
+		function get_username (){
 			return $this->username;
 	}
 

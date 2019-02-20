@@ -23,13 +23,13 @@ if(isset($_SESSION['user_name'])){
 		 	margin: 5px;
 		 	width: 75px;
 			background-color: lightgreen;
-		} 
+		}
 		 #btn2{
 		 	padding: 5px;
 		 	margin: 5px;
 		 	width: 75px;
 			background-color: orange;
-		} 
+		}
 	</style>
 </head>
 <body>
@@ -37,7 +37,7 @@ if(isset($_SESSION['user_name'])){
 <div id="login_page">
 	<h2>Login</h2>
 
-	<form method="POST" action="index.php">
+	<form method="POST" action="control.php">
 		<table border="0.5">
 			<tr>
 				<td><label>Username</label></td>
